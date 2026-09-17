@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Call examples — what the AI agent sounds like</title>
+<title>Sample audio for Voice AI survey</title>
 <style>
   :root {
     --ink: #1f2a2e;
@@ -25,19 +25,19 @@
   }
 
   main {
-    max-width: 720px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 56px 24px 96px;
+    padding: 48px 20px 80px;
   }
 
   header {
-    margin-bottom: 40px;
+    margin-bottom: 36px;
     border-bottom: 1px solid var(--line);
-    padding-bottom: 28px;
+    padding-bottom: 24px;
   }
 
   h1 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     margin: 0 0 12px;
     font-weight: 600;
     letter-spacing: -0.01em;
@@ -45,7 +45,7 @@
 
   header p {
     color: var(--ink-soft);
-    font-size: 1.02rem;
+    font-size: 1rem;
     max-width: 58ch;
     margin: 0;
   }
@@ -54,48 +54,53 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 18px;
   }
 
   li {
-    display: grid;
-    grid-template-columns: 44px 1fr;
-    gap: 4px 18px;
-    padding: 22px 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  li:last-child {
-    border-bottom: none;
+    background: #fdfcf8;
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--teal);
+    border-radius: 6px;
+    padding: 18px 20px 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .num {
     font-family: "Helvetica Neue", Arial, sans-serif;
     color: var(--ink-soft);
-    font-size: 0.95rem;
-    padding-top: 2px;
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 6px;
   }
 
   .body {
     min-width: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   .title {
-    font-size: 1.08rem;
+    font-size: 1.04rem;
     font-weight: 600;
-    margin: 0 0 4px;
+    margin: 0 0 6px;
+    line-height: 1.35;
   }
 
   .desc {
     font-family: "Helvetica Neue", Arial, sans-serif;
     color: var(--ink-soft);
-    font-size: 0.92rem;
-    margin: 0 0 14px;
-    max-width: 52ch;
+    font-size: 0.9rem;
+    margin: 0 0 16px;
+    flex: 1;
   }
 
   audio {
     width: 100%;
-    max-width: 380px;
     height: 34px;
     display: block;
     margin-bottom: 6px;
@@ -126,20 +131,34 @@
     color: var(--ink-soft);
     font-size: 0.85rem;
   }
+
+  @media (max-width: 480px) {
+    main {
+      padding: 32px 16px 64px;
+    }
+
+    h1 {
+      font-size: 1.45rem;
+    }
+
+    ol {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
 </head>
 <body>
 <main>
 
   <header>
-    <h1>What the call might sound like</h1>
-    <p>Eleven short examples, one for each reason people call their insurer. Press play to hear an AI agent handling that call, or use the link underneath if the player doesn't load on your device.</p>
+    <h1>Sample audio for the Voice AI survey</h1>
+    <p>Eleven short recordings, one for each reason people call their insurer. Each one is an example of an AI agent handling that call. Press play to listen, or use the link underneath if the player doesn't load on your device.</p>
   </header>
 
   <ol>
 
     <li>
-      <span class="num">1</span>
+      <span class="num">Task 1</span>
       <div class="body">
         <p class="title">Getting a quote, purchasing or comparing insurance</p>
         <p class="desc">Asking for a new quote and being talked through the details needed to price it.</p>
@@ -151,7 +170,7 @@
     </li>
 
     <li>
-      <span class="num">2</span>
+      <span class="num">Task 2</span>
       <div class="body">
         <p class="title">Changing or updating your policy, or getting documents sent to you</p>
         <p class="desc">Updating an address on file and having new documents sent out.</p>
@@ -163,7 +182,7 @@
     </li>
 
     <li>
-      <span class="num">3</span>
+      <span class="num">Task 3</span>
       <div class="body">
         <p class="title">A question about a payment on your policy</p>
         <p class="desc">Querying an unexpected or duplicate payment taken from an account.</p>
@@ -175,7 +194,7 @@
     </li>
 
     <li>
-      <span class="num">4</span>
+      <span class="num">Task 4</span>
       <div class="body">
         <p class="title">A question about your premium, for example why it increased</p>
         <p class="desc">Asking why a renewal premium went up, and what options exist to bring it down.</p>
@@ -187,7 +206,7 @@
     </li>
 
     <li>
-      <span class="num">5</span>
+      <span class="num">Task 5</span>
       <div class="body">
         <p class="title">Cancelling your insurance</p>
         <p class="desc">Asking to cancel a policy after finding cheaper cover elsewhere.</p>
@@ -199,7 +218,7 @@
     </li>
 
     <li>
-      <span class="num">6</span>
+      <span class="num">Task 6</span>
       <div class="body">
         <p class="title">Getting more information or help understanding something</p>
         <p class="desc">Asking what a policy term actually means, in plain language.</p>
@@ -211,7 +230,7 @@
     </li>
 
     <li>
-      <span class="num">7</span>
+      <span class="num">Task 7</span>
       <div class="body">
         <p class="title">Sorting out a problem or something that's gone wrong</p>
         <p class="desc">Reporting a website fault and getting the underlying task done a different way.</p>
@@ -223,7 +242,7 @@
     </li>
 
     <li>
-      <span class="num">8</span>
+      <span class="num">Task 8</span>
       <div class="body">
         <p class="title">Following up on an ongoing issue or giving feedback about a service failure</p>
         <p class="desc">Chasing an existing complaint that hasn't had a response.</p>
@@ -235,7 +254,7 @@
     </li>
 
     <li>
-      <span class="num">9</span>
+      <span class="num">Task 9</span>
       <div class="body">
         <p class="title">Checking or confirming the status of something</p>
         <p class="desc">Confirming whether a cancellation and refund actually went through.</p>
@@ -247,7 +266,7 @@
     </li>
 
     <li>
-      <span class="num">10</span>
+      <span class="num">Task 10</span>
       <div class="body">
         <p class="title">Following up on an email, message or notification you received</p>
         <p class="desc">Asking what changed after receiving a text about updated policy documents.</p>
@@ -259,7 +278,7 @@
     </li>
 
     <li>
-      <span class="num">11</span>
+      <span class="num">Task 11</span>
       <div class="body">
         <p class="title">Making a claim</p>
         <p class="desc">Lodging a claim after a minor accident, from the safety check through to a repair booking. A longer example.</p>
